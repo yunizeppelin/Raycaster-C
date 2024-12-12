@@ -2,10 +2,10 @@
 This is a simple raycaster engine implemented in C, which renders 3D scenes using a technique called raycasting. The engine uses a 2D map of the scene to cast rays from the player's viewpoint, which are then used to calculate the depth and height of each pixel in the scene.
 ![example](https://user-images.githubusercontent.com/120261381/227791295-4b80ca2e-c1c8-49a2-8818-fcb84eaa7c88.gif)
 ## Features
-- Very basic raycasting algorithm for fast rendering of 3D scenes
-- Simple 2D map format for defining scenes
-- Adjustable field of view and resolution for flexible rendering options
-- Using SDL!
+-Interactive gameplay using mouse clicks
+-Fake 3D achieved through pre-rendering and transformation techniques
+-Modifiable sprites
+-Variations in game modes
 ## Getting Started
 To get started with the raycaster engine, you will need to have a C compiler and the SDL2 library installed on your system.
 
